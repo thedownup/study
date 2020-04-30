@@ -9,8 +9,7 @@ public class NetApplication {
 
     public static void main(String[] args) {
         SpringApplication application = new SpringApplication(NetApplication.class);
-        application.setWebApplicationType(WebApplicationType.NONE)
-        ;
+        application.setWebApplicationType(WebApplicationType.NONE);
         application.run(args);
     }
 
