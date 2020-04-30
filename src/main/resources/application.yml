@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    servlet:
+      load-on-startup: -1
+
+  redis:
+    host: 49.234.102.132
+    port: 6379
+    lettuce:
+      pool:
+        max-idle: 1
+        min-idle: 1
