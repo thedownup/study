@@ -10,3 +10,7 @@ spring:
       pool:
         max-idle: 1
         min-idle: 1
+
+server:
+  tomcat:
+    min-spare-threads: 2
